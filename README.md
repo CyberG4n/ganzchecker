@@ -36,7 +36,7 @@ pkg install python git curl
 3. Clone Repository
 
 ```bash
-git clone https://github.com/username/ganz-web-checker.git
+git clone https://github.com/CyberG4n/ganzchecker.git
 cd ganz-web-checker
 ```
 
@@ -64,8 +64,7 @@ sudo apt install python3 python3-pip git curl -y
 2. Clone Repository
 
 ```bash
-git clone https://github.com/username/ganz-web-checker.git
-cd ganz-web-checker
+git clone https://github.com/CyberG4n/ganzchecker.git cd ganz-web-checker
 ```
 
 3. Install Python Packages
