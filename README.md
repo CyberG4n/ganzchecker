@@ -20,17 +20,85 @@ Sebelum menjalankan tools, pastikan sistem Anda sudah terinstall:
 
 🚀 Step by Step Installation
 
-1. Clone Repository
+Untuk Termux (Android):
+
+1. Install Termux dari F-Droid
+
+Download Termux dari F-Droid
+
+2. Update dan Install Dependencies di Termux
+
+```bash
+pkg update && pkg upgrade
+pkg install python git curl
+```
+
+3. Clone Repository
 
 ```bash
 git clone https://github.com/username/ganz-web-checker.git
 cd ganz-web-checker
 ```
 
-2. Install Python Dependencies
+4. Install Python Packages
 
 ```bash
 pip install requests
+```
+
+5. Dapatkan API Key VirusTotal
+
+1. Buka browser dan daftar di VirusTotal
+2. Dapatkan API key gratis dari account settings
+3. Simpan API key Anda
+
+6. Konfigurasi API Key
+
+Edit file web_checker.py dan ganti API key:
+
+```python
+API_KEY = "API_KEY_ANDA_DISINI"
+```
+
+7. Jalankan Tools
+
+```bash
+python web_checker.py
+```
+
+Untuk Ubuntu/Debian Linux:
+
+1. Update System dan Install Dependencies
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip git curl -y
+```
+
+2. Clone Repository
+
+```bash
+git clone https://github.com/username/ganz-web-checker.git
+cd ganz-web-checker
+```
+
+3. Install Python Packages
+
+```bash
+pip3 install requests
+```
+
+
+4. Berikan Permission Execute
+
+```bash
+chmod +x web_checker.py
+```
+
+5. Jalankan Tools
+
+```bash
+python3 web_checker.py
 ```
 
 🛡️ Jenis Ancaman yang Terdeteksi
