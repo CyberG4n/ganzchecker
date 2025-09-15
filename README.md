@@ -46,21 +46,7 @@ cd ganz-web-checker
 pip install requests
 ```
 
-5. Dapatkan API Key VirusTotal
-
-1. Buka browser dan daftar di VirusTotal
-2. Dapatkan API key gratis dari account settings
-3. Simpan API key Anda
-
-6. Konfigurasi API Key
-
-Edit file web_checker.py dan ganti API key:
-
-```python
-API_KEY = "API_KEY_ANDA_DISINI"
-```
-
-7. Jalankan Tools
+5. Jalankan Tools
 
 ```bash
 python web_checker.py
